@@ -1,0 +1,17 @@
+button {
+    font-size: 1.875rem;
+    font-weight: $font-weight-light;
+    border-radius: 5px;
+    border: 0;
+    border-bottom: 3px solid $persianPink;
+    background-color: $illusion;
+    appearance: none;
+    padding: 15px 20px;
+    color: $outerSpace;
+    cursor: pointer;
+
+    &:focus {
+        outline: 0;
+        box-shadow: 0 0 0 2px $outerSpace, 0 0 0 5px rgba($illusion, .5);
+    }
+}

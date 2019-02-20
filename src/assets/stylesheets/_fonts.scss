@@ -1,0 +1,83 @@
+@font-face {
+    font-family: $font-family-primary;
+    src: url('../fonts/Montserrat/Montserrat-extralight.eot');
+    src: url('../fonts/Montserrat/Montserrat-extralight.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Montserrat/Montserrat-extralight.woff2') format('woff2'),
+         url('../fonts/Montserrat/Montserrat-extralight.woff') format('woff'),
+         url('../fonts/Montserrat/Montserrat-extralight.ttf') format('truetype'),
+         url('../fonts/Montserrat/Montserrat-extralight.svg#montserratextralight') format('svg');
+    font-weight: $font-weight-light;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: $font-family-primary;
+    src: url('../fonts/Montserrat/Montserrat-extralightitalic.eot');
+    src: url('../fonts/Montserrat/Montserrat-extralightitalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Montserrat/Montserrat-extralightitalic.woff2') format('woff2'),
+         url('../fonts/Montserrat/Montserrat-extralightitalic.woff') format('woff'),
+         url('../fonts/Montserrat/Montserrat-extralightitalic.ttf') format('truetype'),
+         url('../fonts/Montserrat/Montserrat-extralightitalic.svg#montserratextralight_italic') format('svg');
+    font-weight: $font-weight-light;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: $font-family-primary;
+    src: url('../fonts/Montserrat/Montserrat-medium.eot');
+    src: url('../fonts/Montserrat/Montserrat-medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Montserrat/Montserrat-medium.woff2') format('woff2'),
+         url('../fonts/Montserrat/Montserrat-medium.woff') format('woff'),
+         url('../fonts/Montserrat/Montserrat-medium.ttf') format('truetype'),
+         url('../fonts/Montserrat/Montserrat-medium.svg#montserratmedium') format('svg');
+    font-weight: $font-weight-regular;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: $font-family-primary;
+    src: url('../fonts/Montserrat/Montserrat-mediumitalic.eot');
+    src: url('../fonts/Montserrat/Montserrat-mediumitalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Montserrat/Montserrat-mediumitalic.woff2') format('woff2'),
+         url('../fonts/Montserrat/Montserrat-mediumitalic.woff') format('woff'),
+         url('../fonts/Montserrat/Montserrat-mediumitalic.ttf') format('truetype'),
+         url('../fonts/Montserrat/Montserrat-mediumitalic.svg#montserratmedium_italic') format('svg');
+    font-weight: $font-weight-regular;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: $font-family-primary;
+    src: url('../fonts/Montserrat/Montserrat-black.eot');
+    src: url('../fonts/Montserrat/Montserrat-black.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Montserrat/Montserrat-black.woff2') format('woff2'),
+         url('../fonts/Montserrat/Montserrat-black.woff') format('woff'),
+         url('../fonts/Montserrat/Montserrat-black.ttf') format('truetype'),
+         url('../fonts/Montserrat/Montserrat-black.svg#montserratblack') format('svg');
+    font-weight: $font-weight-bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: $font-family-primary;
+    src: url('../fonts/Montserrat/Montserrat-blackitalic.eot');
+    src: url('../fonts/Montserrat/Montserrat-blackitalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Montserrat/Montserrat-blackitalic.woff2') format('woff2'),
+         url('../fonts/Montserrat/Montserrat-blackitalic.woff') format('woff'),
+         url('../fonts/Montserrat/Montserrat-blackitalic.ttf') format('truetype'),
+         url('../fonts/Montserrat/Montserrat-blackitalic.svg#montserratblack_italic') format('svg');
+    font-weight: $font-weight-bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: $font-family-secondary;
+    src: url('../fonts/GoldenGate/GoldenGate.eot');
+    src: url('../fonts/GoldenGate/GoldenGate.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/GoldenGate/GoldenGate.woff2') format('woff2'),
+         url('../fonts/GoldenGate/GoldenGate.woff') format('woff'),
+         url('../fonts/GoldenGate/GoldenGate.ttf') format('truetype'),
+         url('../fonts/GoldenGate/GoldenGate.svg#golden_gateregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

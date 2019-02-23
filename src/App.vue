@@ -3,10 +3,17 @@
     <div id="nav">
       <h1><span class="top-text">Sacrée</span> Tirelire</h1>
     </div>
-    <router-view/>
+    <Home/>
   </div>
 </template>
 
-<style lang="scss">
+<script>
+import Home from './views/Home.vue'
 
-</style>
+export default {
+  name: 'app',
+  components: {
+    Home
+  }
+}
+</script>

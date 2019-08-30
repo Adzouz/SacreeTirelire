@@ -2,9 +2,9 @@
   <div class="page-content">
     <div class="row">
       <div>À chaque fois que</div>
-      <div><input type="text" v-model="trigger"></div>
+      <label><input type="text" v-model="trigger"></label>
       <div>je dépose</div>
-      <div><input type="number" v-model="amount"> $</div>
+      <label><input type="number" v-model="amount"> $</label>
       <div>dans la tirelire.</div>
     </div>
     <div>
@@ -98,7 +98,8 @@ export default {
       @media only screen and (min-width: 1024px) {
         flex-direction: row;
       }
-      > div {
+      > div,
+      > label {
         width: 100%;
         display: flex;
         align-items: center;
@@ -117,7 +118,8 @@ export default {
         }
       }
     }
-    > div {
+    > div,
+    > label {
       padding: 20px;
     }
     .total {
